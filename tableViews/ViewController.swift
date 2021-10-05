@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func beatButtonPressed(_ sender: UIButton) {
-        
+        print("i added a new change or a new function ")
         if let text = textField.text{
             if text != ""{
                 tasks.append(text)
